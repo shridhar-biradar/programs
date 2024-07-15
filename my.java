@@ -2,6 +2,8 @@
  * my
  */
 public class my {
-main
+public static void main(String[] args) {
+    
+}
     
 }
