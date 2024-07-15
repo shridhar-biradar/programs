@@ -1,8 +1,4 @@
 
-
-/**
- * my
- */
 public class pallindrome {
 public static void main(String[] args) {
     String s1="madam";
