@@ -23,14 +23,22 @@ class  passengerplane extends Aeroplane{  // parent class method over ride by ch
         System.out.println("passwnger plane fly");
     }
  }
+ class airport{
+    public  void poly(Aeroplane ref){
+        ref.takeoff();
+        ref.fly();
+        System.out.println("-----------");
+    }
+ }
 
 class polymorphism{
     public static void main(String[] args) {
         cargoPlane cp=new cargoPlane();
-        cp.takeoff();
-        cp.fly();
+        
         passengerplane pp=new passengerplane();
-        pp.takeoff();
-        pp.fly();
+        
+       airport a=new airport();
+        a.poly(cp);
+        a.poly(pp);
     }
 }
