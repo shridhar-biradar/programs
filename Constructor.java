@@ -1,6 +1,7 @@
 class Demo{
     private int a;
     private int b;
+    
     public Demo(int a, int b){
         this.a=a;
         this.b=b;
