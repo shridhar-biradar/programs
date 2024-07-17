@@ -10,6 +10,6 @@ public class Excep {
             System.out.println(" cannot divisible by zero");
         }
         System.out.println(result);
-        System.out.println(" thank you");
+        
     }
 }
