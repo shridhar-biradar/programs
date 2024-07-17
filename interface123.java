@@ -8,7 +8,7 @@ class B implements  A{
     }
  }
 
-public class  interface1{
+public class  interface123{
     public static void main(String[] args){
         B obj=new B();
         obj.show();
