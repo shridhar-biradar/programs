@@ -4,7 +4,7 @@ interface  A{
 class B implements  A{
     public void show()
     {
-        System.out.println(" Interface is implimented in class B");
+        System.out.println(" Interface is  implimented in class B");
     }
  }
 
