@@ -12,7 +12,7 @@ class student extends human{
 
 public class inheritance {
     public static void main(String[] args) {
-        student s1=new student();
+        student  s1=new student();
         s1.sleep();
     }
 }
