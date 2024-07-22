@@ -15,7 +15,7 @@ public class primeNum {
     }
 
     public static void main(String[] args) {
-        int n=450;
+        int n=4;
         System.out.println(isPrime(n));
     }
 }
