@@ -8,6 +8,7 @@ bool isLeep(int year){
     else
     return false;
 }
+
 int main(){
     int year=2022;
     if(isLeep(year)){
