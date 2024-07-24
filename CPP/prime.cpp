@@ -11,6 +11,7 @@ using namespace std;
     }
     return true;
  }
+ 
 int main(){
     int n=10;
     if(isPrime(n)){
