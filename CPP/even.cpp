@@ -6,7 +6,7 @@ using namespace std;
  int main(){
     int n=34;
     if(isEven(n)==true){
-        cout<< n<< "is even";
+        cout<< n<< "is even ";
     }
     else
     cout<< n<<" is odd";
