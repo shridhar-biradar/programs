@@ -7,6 +7,7 @@ string remVowel(string str){
     regex r("[aeoiuAEIOU]");
     return regex_replace(str,r,"");
 }
+
 int main(){
     string str="hellodea";
     cout<< remVowel(str);
