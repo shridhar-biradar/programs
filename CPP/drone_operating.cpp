@@ -15,7 +15,7 @@ public:
 
     // Simulates drone survey operation.
     virtual void survey() {
-        std::cout << "Drone is surveying\n";
+        std::cout << "Drone is surveying \n";
     }
 
     // Simulates drone returning to home position.
