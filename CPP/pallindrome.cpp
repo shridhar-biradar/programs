@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
+
 int main(){
-   int num=123218, temp,reverse=0,rem;
+   int num=12321, temp,reverse=0,rem;
    temp=num;
    while(temp!=0){
     rem=temp%10;
