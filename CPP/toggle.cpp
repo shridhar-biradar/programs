@@ -1,7 +1,7 @@
 #include<cstring>
 #include<iostream>
 using namespace std;
-// #include <string>
+#include <string>
 
 int main(){
     string str="helooH";
