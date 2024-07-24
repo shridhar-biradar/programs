@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int gcd1(int a, int b){
