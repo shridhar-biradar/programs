@@ -9,7 +9,7 @@ int main(){
     temp=temp/10;
    }
    if(num==reverse){
-    cout<<" Armstrong num";
+    cout<<" Armstrong num ";
    }
    else
    cout<<" not Armstrong";
