@@ -11,5 +11,5 @@ int main(){
         a=b;
         b=c;
     }
-    // cout<< c;
+    cout<< c;
 }
