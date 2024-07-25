@@ -7,7 +7,7 @@ int main(){
     for(int i=2;i<=n;i++)
     {
         c=a+b;
-        cout<<"    "<<c;
+        cout<<"     "<<c;
         a=b;
         b=c;
     }
