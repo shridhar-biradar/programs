@@ -10,15 +10,18 @@ public class Rotation {
                 {6,7,8}
             };
             
-
+              int i;
+              int m=arr.length;
+              int n=arr[0].length;
               System.out.println(" transpoce matrix  values");
-              for(int i=0; i<3;i++){
-                for(int j=0;j<=2;j++){
+              for( i=0; i<m;i++){
+                for(int j=i;j<n;j++){
                     System.out.print(arr[j][i] + " ");
                 }
-                System.out.println("\n");
+                System.out.println(" ");
               }
 
+              
         }             
     
 }
