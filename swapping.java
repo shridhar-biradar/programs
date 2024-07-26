@@ -5,7 +5,7 @@ public class swapping {
         b=a+b;
         a=b-a;
         b=b-a;
-        System.out.println("a:" +a);
+        System.out.println("a: " +a);
         System.out.println("b:"+ b);
     }
 }
