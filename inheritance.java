@@ -2,7 +2,7 @@ class human{
     int age;
     void sleep(){
         age=22;
-        System.out.println("human nead good sleep         ");
+        System.out.println("human nead good sleep          ");
         System.out.println(age);
     }
 }
