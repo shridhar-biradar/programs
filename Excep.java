@@ -7,7 +7,7 @@ public class Excep {
              result=a/b;
         }
         catch(Exception e){
-            System.out.println(" cannot divisible by zero   "+ e);
+            System.out.println(" cannot divisible by zero  "+ e);
         }
         System.out.println(result);
         
