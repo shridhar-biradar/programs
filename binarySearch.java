@@ -22,7 +22,7 @@ public class binarySearch {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the size of array: ");
+        System.out.println("enter the size of array:  ");
         int n=sc.nextInt();
         int arr[]=new int[n];
         System.out.println("enter elements of array:");
