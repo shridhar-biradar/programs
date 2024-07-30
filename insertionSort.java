@@ -1,6 +1,10 @@
 
 import java.util.Arrays;
 
+
+
+
+
 class insertionSort{
     public static void insertionSorting(int arr[])
     {
@@ -21,5 +25,6 @@ class insertionSort{
       insertionSorting(arr);
       System.out.println("array after insertion sort is"); 
       System.out.println(Arrays.toString(arr)); 
+    
     }
 }
