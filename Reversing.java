@@ -15,7 +15,7 @@ class  Reversing{
         return ans.toString();
     }
     public static void main(String[] args) {
-       String str="  have    a  nice   day   ";
+       String str="  have    a   nice   day   ";
        String result=reversingString(str);
        System.out.println(result);
     }
