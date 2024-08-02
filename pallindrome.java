@@ -13,7 +13,7 @@ public static void main(String[] args) {
         System.out.println(" it is pallindrome ");
     }
     else
-    System.out.println("not pallindrome");
+    System.out.println(" not pallindrome");
  }
     
 }
