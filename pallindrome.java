@@ -8,7 +8,7 @@ public static void main(String[] args) {
         s2= s1.charAt(i)+s2;
     }
     if(s2.equals(s1)){
-        System.out.println("it is pallindrome");
+        System.out.println("it is pallindrome ");
     }
     else
     System.out.println("not pallindrome");
