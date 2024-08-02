@@ -10,7 +10,7 @@ public static void main(String[] args) {
     }
     if(s2.equals(s1))
     {
-        System.out.println("it is pallindrome");
+        System.out.println(" it is pallindrome");
     }
     else
     System.out.println("not pallindrome ");
