@@ -8,7 +8,8 @@ public static void main(String[] args) {
     for(int i=0; i<n;i++){
         s2= s1.charAt(i)+s2;
     }
-    if(s2.equals(s1)){
+    if(s2.equals(s1))
+    {
         System.out.println("it is pallindrome ");
     }
     else
