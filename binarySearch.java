@@ -30,7 +30,7 @@ public class binarySearch {
             arr[i]=sc.nextInt();
         }
 
-        System.out.println("enter target element: ");
+        System.out.println("enter target element:  ");
         int target=sc.nextInt();
         int result=findElement(arr,target);
         // char[] resu;
