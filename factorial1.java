@@ -1,4 +1,5 @@
-public class factorial1 {
+public class factorial1 
+{
 
     public static int facto(int n)
     {
