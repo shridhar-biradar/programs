@@ -7,20 +7,29 @@
     <style>
         .h{
             text-align: right;
-            margin-left: 430px;
+            /* margin-left: 430px; */
             text-transform: uppercase;
            text-decoration-color: white;
             text-decoration: dotted;
             text-shadow: red;
             /* padding-inline:10px; */
-            border: 1px solid #000;
+            /* border: 1px solid #000; */
             /* margin: 0px 10px; */
         }
          nav a {
             
             margin-left: 15px;
          }
-         
+         body{
+            /* background-color: rgb(217, 182, 93); */
+            
+         }
+         li{
+            color: rgb(11, 168, 200);
+         }
+         h1{
+            color: rgb(184, 184, 33);
+         }
     </style>
 </head>
 <body>
@@ -31,6 +40,7 @@
     </nav>
     <main>
         <!-- <h1>this is hearder</h1> -->
+       
 
         <section>
             <header><h1>section 1</h1></header>
@@ -46,10 +56,143 @@
             <header><h1>section 3</h1></header>
             <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum repellat dolorem consequatur est quae laudantium, deserunt rem sint magnam repellendus, ad possimus distinctio nemo eos tempora officiis nisi aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis sunt eos ea? Quas, voluptatum eius? Aspernatur, necessitatibus. Culpa doloribus iusto odit soluta fuga reprehenderit, eos reiciendis enim error cupiditate, beatae officia ea corrupti doloremque unde voluptas veniam est esse veritatis vitae ad at quam architecto? Culpa earum nobis hic.</article>
         </section>
+        
         <section>
-            <header><h1>section 4</h1></header>
-            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum repellat dolorem consequatur est quae laudantium, deserunt rem sint magnam repellendus, ad possimus distinctio nemo eos tempora officiis nisi aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fuga corporis voluptatem blanditiis mollitia, sint laudantium autem at sequi repellendus vero. Velit dolore eos eum officiis quod saepe nihil maiores adipisci eaque ut sequi dolorum quae, omnis cupiditate ea? Ipsum provident sit deleniti corrupti similique non accusamus voluptates vero odit?</article>
+            <h1>unorderd list</h1>
+            <ul >
+                
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ul>
+            <ul type="square">
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ul>
+            <ul type="circle">
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ul>
+            <ul type="none">
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ul>
+            <h1>order list</h1>
+            <ol type="1" start="-5" >
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ol>
+            <ol type="i">
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ol>
+            <ol type="A" start="26" reversed>
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ol>
+            <ol type="a">
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ol>
+            <ol type="I" >
+                <li >html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>js</li>
+            </ol>
+           <h1>descriptive lis</h1>
+           <dl>
+            <strong><dt>React</dt></strong>
+            <dd>hello this is react content</dd>
+           </dl> 
+           <dl>
+            <strong><dt>mango db</dt></strong>
+            <dd>this is mangoDB content</dd>
+           </dl>
+           <dl>
+            <strong><dt>Lorem ipsum dolor sit amet.</dt></strong>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non, sed architecto, delectus earum quaerat quidem accusantium mollitia officia voluptas ex inventore iure modi amet, qui corporis. Ullam, amet molestias.</dd>
+           </dl>
+           <!-- <button style="color: rgb(228, 17, 109);">submit</button> -->
         </section>
+        <section>
+            <h1>Table</h1>
+            <table border="4" align="center" cellspacing="2px" cellpadding="5px"  >
+                <tr bgcolor="red">
+                    <th>id</th>
+                    <th>name</th>
+                    <th>phno</th>
+                    <th>location</th>
+                </tr>
+                <tr bgcolor="green">
+                    <td>1</td>
+                    <td>shri</td>
+                    <td>627676336</td>
+                    <td>bijapur</td>
+
+                </tr>
+                <tr bgcolor="orange">
+                    <td>2</td>
+                    <td bgcolor="">rahul</td>
+                    <td>62135656</td>
+                    <td>bijapur</td>
+                </tr>
+                <tr bgcolor="yellow">
+                    <td>3</td>
+                    <td>abhi</td>
+                    <td>256535433</td>
+                    <td>jamkandi</td>
+                </tr>
+
+            </table>
+
+            <table border="2px" cellspacing="2">
+                <tr >
+                     <td rowspan=3>table1</td>
+                    <td colspan=2 align="center">table1</td>
+                </tr>
+                    
+                <tr>
+                    <td >table1
+                        <table border="2">
+                            <tr>
+                                <td>hello</td>
+                                <td>hii</td>
+                            </tr>
+
+                        </table>
+                    </td>
+                    <td>table1</td>
+                </tr>
+                
+                <tr>
+                    <td>table1</td>
+                    <td>table1</td>
+                </tr>
+
+                <tr>
+                    <td>table1</td>
+                    <td colspan=2 align="center">table1</td>
+                </tr>
+
+            </table>
+        </section>
+
     </main>
 </body>
 </html>

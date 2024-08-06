@@ -1,0 +1,27 @@
+  .navbar{
+        
+    text-align: right;
+      /* margin-left: 15px;   */
+      border: 10px groove; 
+     background-color: rgb(226, 187, 68);  
+     /* border-left: 0px; */
+    
+   } 
+  nav a{
+    margin-left: 15px;
+    font-size: 30px;
+    
+  }
+  .ph{
+    text-align:center; 
+    width:100%;
+    display:block;
+    /* margin:auto; */
+    border-radius: 50%;
+    width: 25%;
+    size: 50%;
+  }
+ 
+
+
+  
