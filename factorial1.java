@@ -8,7 +8,8 @@ public class factorial1 {
         return n*facto(n-1);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+     {
         int n=4;
         System.out.println(facto(n));
     }
