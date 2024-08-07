@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Span </title>
+</head>
+<body>
+    <table border="4"cellspacing="2" cellpadding="10" >
+        <tr>
+            <th colspan="4" align="center">New employee records</th>
+            
+        </tr>
+        <tr align="center">
+            <th>Name</th>
+            <th colspan="2">jobs</th>
+            <th>work experience</th>
+        </tr>
+        <tr align="center">
+            <td>john</td>
+            <td>software engineer</td>
+            <td>data analyst</td>
+            <td rowspan="2">5 years</td>
+        </tr>
+        <tr align="center">
+            <td>ale</td>
+            <td colspan="2"> senior web developer</td>
+        </tr>
+        <tr align="center">
+            <td>jack</td>
+            <td>junior tech writter</td>
+            <td>blogger</td>
+            <td>6 months</td>
+        </tr>
+
+    </table>
+    <br>
+    <form action="" border="2">
+
+        <label for="">Enter below details</label> <br>
+
+        <label for="fname" >First name</label><br> 
+        <!-- for is used in label and id is used in input it is used to connect name to input block -->
+        <input type="text" placeholder="enter name" id="fname" required ><br>
+
+        <label for="lname">Last name</label> <br>
+        <input type="text" id="lname" value="biradar" readonly> <br> 
+
+        <label for="pass"> password</label><br>
+        <input type="password"  name="pass" id="pass"> <br>
+
+        <label for="dob"> dob</label><br>
+        <input type="date" name="dob" id="dob"><br><br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
