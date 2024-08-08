@@ -11,7 +11,7 @@
         <input type="radio" name="gender" value="male" id="male" checked>
         <!-- checked is used to default selection of values , 
          if we provide name="gender" as same for some option it will allow to select only one option,
-         id and for used for linking , value for browser understanding -->
+         id and for used for linking , value for browser understanding , we can use readonly, disabled-->
         <label for="male">Male</label>
 
         <input type="radio" value="female" name="gender" id="female">
@@ -64,6 +64,32 @@
         <input type="checkbox" name="Eduction" id="cb7" value="BE" >
         <label for="cb7">BE</label>
         <br><br>
+
+        <label for="">File selection</label>
+        <br>
+        <input type="file" accept="image/*" or accept="pdf" multiple><br>
+        <textarea name="" id="" rows="20" cols="30" maxlength="300"></textarea>
+        <br><br>
+
+        <label for="num">enter the number</label>
+        <input type="number" id="num" name="number" max="10" min="0" valuetext="number">
+        <br>
+        <input type="date" min="2002-01-01" max="2010-01-01" value="2002-07-12" name="" id="">
+        <br><br>
+
+        <!-- fieldset is used to create border with in this we can wrap the content and legend is used to provide table name -->
+        <fieldset>
+            <legend>personal details</legend>
+            <label for="fname">first name</label>
+            <input type="text" name="" id="fname">
+            <br>
+            <label for="lname">last name</label>
+            <input type="text" id="lname">
+            <br>
+            <label for="dob">dob</label>
+            <input type="date"  name="" id="dob">
+            <br>
+        </fieldset>
 
         <button>submit</button>
     </form>
