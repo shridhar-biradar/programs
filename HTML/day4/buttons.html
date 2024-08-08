@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="">
-        <label for="">Select Gender</label>
+        <label for="">Select Gender</label><br>
         <input type="radio" name="gender" value="male" id="male" checked>
         <!-- checked is used to default selection of values , 
          if we provide name="gender" as same for some option it will allow to select only one option,
@@ -21,7 +21,7 @@
         <label for="other">other</label>
 
         <br><br>
-        <label for="">select city name</label>
+        <label for="">select city name</label><br>
         <input type="radio" name="city" id="c1" value="bangalore" >
         <label for="c1">bangalore</label>
 
@@ -29,7 +29,8 @@
         <label for="c2">hydrabad</label>
 
         <input type="radio" name="city" id="c3" value="vijaypur" >
-        <label for="c3">vijaypur</label><br><br>
+        <label for="c3">vijaypur</label>
+        <br><br>
 
         <label for="">select historical place</label><br>
         <input type="radio" name="place" id="p1" value="gol gumbaj" >
@@ -43,14 +44,28 @@
         <br><br>
 
         <label for=""> select technology</label><br>
-        <input type="checkbox" name="" id="cb1" value="html" >
+        <input type="checkbox" name="technology" id="cb1" value="html" >
         <label for="cb1">html</label>
 
-        <input type="checkbox" name="" id="cb2" value="css" >
+        <input type="checkbox" name="technology" id="cb2" value="css" >
         <label for="cb2">css</label>
 
-        <input type="checkbox" name="" id="cb3" value="python" >
-        <label for="cb3">python</label><br><br>
+        <input type="checkbox" name="technology" id="cb3" value="python" >
+        <label for="cb3">python</label>
+        <br><br>
+
+        <label for="">Select Education</label><br>
+        <input type="checkbox" name="Eduction" id="cb5" value="SSLC" >
+        <label for="cb5">SSLC</label>
+
+        <input type="checkbox" name="Eduction" id="cb6" value="PUC" >
+        <label for="cb6">PUC</label>
+
+        <input type="checkbox" name="Eduction" id="cb7" value="BE" >
+        <label for="cb7">BE</label>
+        <br><br>
+
+        <button>submit</button>
     </form>
 </body>
 </html>
