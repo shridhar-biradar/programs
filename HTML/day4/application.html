@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCHOLASHIP APPLICATION FORM</title>
+    <style>
+        /* input[type="text"],
+        input[type="date"] {
+            width: 200px; /* Set a fixed width for input fields */
+            /* padding: 8px;
+            margin-left: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;  */
+            
+    </style> 
 </head>
 <body>
     <h1>SHCHOLARSHIP APPLICATION FORM</h1>
@@ -15,18 +25,25 @@
         <p>Tell us about yourself</p>
         <hr>
 
+        <section border-radius: 4px;>
         <label for="full name" required>Full Name</label><br>
-        <input type="text" name="full name" id="" placeholder="first name">
+        <input type="text" name="full name" id="" placeholder="first name" required>
         <input type="text" name="full name" id="" placeholder="last name">
         <br><br>
-        <label for="dob">Birth Date</label>
-        <input type="date" name="date" id="dob">
+        <label for="dob" required>Birth Date</label>
+        <input type="date" name="date" id="dob" required>
         <br><br>
         <label for="phno" required>Mobile No</label>
         <input type="number" name="phNo" id="phno" maxlength="10" required>
         <br><br>
-        
-
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="myname@gmail.com">
+        <br><br>
+        <label for="address">Home address</label>
+        <input type="text" name="" id="address" placeholder="street address">
+    <br><br>
+        <button>submit</button>
+        </section>
 
     </form>
 
