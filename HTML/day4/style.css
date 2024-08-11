@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    background-color: rgb(208, 182, 115);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin:20px ;
+    padding: 10px;
+}
+
+/* grouping selector */
+h1,h2{
+    color:rgb(234, 138, 21) ;
+}
+.para{
+    color: chartreuse;
+}
+#para1{
+    color: cornflowerblue;
+    /* font-size: 40px; */
+}
+
+/* element selector */
+h1[name='para2']{
+    color: darkgreen;
+    font-size: 50px;
+}

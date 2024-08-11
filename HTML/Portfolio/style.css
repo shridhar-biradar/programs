@@ -1,10 +1,14 @@
   .navbar{
         
     text-align: right;
-      /* margin-left: 15px;   */
-      border: 10px groove; 
+      margin-left: 75%;
+      margin-right: 2%;  
+      border: 10px groove ; 
      background-color: rgb(226, 187, 68);  
      /* border-left: 0px; */
+     display: block;
+     /* align-items:center; */
+     align-content: right;
     
    } 
   nav a{
