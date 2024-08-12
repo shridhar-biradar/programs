@@ -1,0 +1,27 @@
+.parent .child2 {
+    background-color:aquamarine;
+}
+.parent .child1{
+background-color:rgb(203, 127, 27) ;
+}
+
+ li+li{
+    color: orange;
+ }
+ li~li{
+    color: red;
+ }
+ h1+li{
+    color:rgb(23, 7, 243);
+ }
+ /* ~ is more priorrity than  +  */
+
+ .child2 p{
+    font-size: 20px;
+ }
+ button{
+    background-color: blueviolet;
+ }
+ .parent .child1 button{
+    background-color: brown;
+ }

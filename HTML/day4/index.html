@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
-    <link rel="stylesheet" href="./style.css">
-    
+    <title>Image with Background Image</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .foreground-image {
+            max-width: 20%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border: 2px solid #fff;
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
-    <!-- priority: id > attribute > class >tags -->
-    <h1 class="para" id="para1" name="para2" >headding 1</h1>
-    <h1>heading 2</h1>
-    <p >
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eius odio sit saepe beatae vero, minus deleniti sed earum in repellat sapiente nulla quasi facilis corporis aspernatur! Quas, quo expedita.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae maiores architecto veniam placeat unde voluptatum obcaecati saepe laudantium, facere animi mollitia dolore in ipsa repellendus voluptas blanditiis illo sint pariatur!</p>
+    <img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt="Foreground Image" class="foreground-image">
 </body>
 </html>
