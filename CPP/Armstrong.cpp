@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){ 
+   
    int num=153, temp, rem, reverse=0;
    temp=num;
    while(temp!=0){
