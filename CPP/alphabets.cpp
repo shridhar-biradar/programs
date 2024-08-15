@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstring>
-using namespace std;
+using namespace std; 
 
 string remove_nonchar(string str){
     string result;
