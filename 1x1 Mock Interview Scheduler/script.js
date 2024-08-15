@@ -59,6 +59,12 @@ document.getElementById("submit").addEventListener("click", () => {
         payment: paymentAmount
     };
 
+    // Store booking data in localStorage
+    localStorage.setItem('booking', JSON.stringify(booking));
+
     console.log("Booking Details:", booking);
     alert("Your session has been scheduled!");
 });
+
+// Initial population of the mentor dropdown when the page loads
+populateMentorDropdown();

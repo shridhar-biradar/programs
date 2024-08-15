@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    border: 2px solid red;
+    
+    /* margin: auto; */
+    /* margin: auto; */
+    padding: 20px;
+    position:relative;
+    /* align-items: center; */
+    margin-left: 38%;
+
+}
+.container>.box{
+ padding: 20px;
+ border: 2px solid blue;
+ padding-bottom: 15px;
+ margin-bottom: 15px;
+
+}
+
+.container > .item1{
+ background-color: forestgreen;
+ top: 10px;
+ /* position: fixed; */
+ /* position:sticky; */
+}
+
+.list_container{
+    margin-bottom: 25px;
+}
+
+.list_container > h4{
+    background-color: grey;
+    color: white;
+    position: sticky;
+    top: 0px;
+    left: 500px;
+    border: 5px solid red;
+}
