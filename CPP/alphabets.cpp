@@ -12,7 +12,7 @@ string remove_nonchar(string str){
     return result;
 }
 int main(){
-    string str="snjjhdjsh26365265#@#$%$";
+    string str="";
     cout<< remove_nonchar(str);
     return 0;
 }
