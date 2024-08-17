@@ -9,7 +9,7 @@ int sum(int num){
     }return result;
 }
 
-int main(){    
+int main(){     
     int num=7;
     cout<< sum(num);
     return 0;
