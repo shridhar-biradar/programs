@@ -7,6 +7,7 @@ int sum(int num){
         result+=i;
     }return result;
 }
+
 int main(){
     int num=7;
     cout<< sum(num);
