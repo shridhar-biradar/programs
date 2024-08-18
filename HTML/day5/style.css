@@ -1,0 +1,40 @@
+.design{
+    width: 60vw;
+    height: 40vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    align-items: start;
+    position: relative;
+    background-color: aliceblue;
+
+}
+
+.design > .sub-cont{
+
+    width: 25%;
+    height: 90%;
+    border: 2px solid rgb(20, 234, 20);
+    padding-left: 6%;
+    margin: 2%;
+    line-height: 250%;
+    background-color: rgb(111, 111, 215);
+    
+}
+p :hover{
+    color: white;
+    background-color: rgb(15, 163, 84);
+}
+
+.design > .info-cont{
+    width: 58%;
+    height: 100%;
+    /* border: 2px solid darkblue; */
+    /* padding-left: 10%; */
+    position: absolute;
+    /* padding-left: 40%; */
+    margin-left: 40%;
+    padding-left: 1%;
+
+}
