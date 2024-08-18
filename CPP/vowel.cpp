@@ -11,6 +11,6 @@ int main(){
         cout<< ch << " is consonents"; 
     }
     else
-    cout<< " not an alphabets";
+    cout<< " not an alphabets"; 
  return 0;
 }
