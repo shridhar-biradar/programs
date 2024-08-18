@@ -10,7 +10,7 @@ int main(){
         else
         cout<< ch << " is consonents"; 
     }
-    else
+    else 
     cout<< " not an alphabets"; 
  return 0;
 }
