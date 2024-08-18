@@ -8,7 +8,7 @@ int main(){
             cout<< ch<< " is vowel";
         }
         else
-        cout<< ch << " is consonents";
+        cout<< ch << " is consonents"; 
     }
     else
     cout<< " not an alphabets";
