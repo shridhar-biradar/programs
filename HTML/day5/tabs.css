@@ -1,0 +1,28 @@
+.table-cont  > thead  > tr >th {
+    border: 1px solid red;
+    
+    background-color: rgb(168, 168, 240);
+    color: rgb(243, 9, 169);
+}
+
+.table-cont > tbody >tr >td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid orange;
+    margin-top: 10px;
+    background-color: aqua;
+}
+.box:hover{
+    background-color: orange;
+    /* transform: skew(50deg); */
+    transform: scale(2,1);
+    transition-duration: 2s;
+
+}
