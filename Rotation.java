@@ -10,7 +10,7 @@ public class Rotation {
                 {6,7,8}
             };
             
-              int i;
+              int i; 
               int m=arr.length;
               int n=arr[0].length;
               System.out.println(" transpoce matrix  values");
