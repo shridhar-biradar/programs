@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: rgb(207, 192, 220);
+    padding: 20px;
+    border-radius: 20px;
+    padding-right: 0px;
+   
+
+ 
+ 
+}
+.nav-links{
+    
+    padding-left: 68%;
+    justify-content: space-between;
+    justify-content:space-around 10px;
+   word-spacing: 20px;
+   
+   
+}
+
+.nav-links a:hover{
+    color: rgb(238, 20, 180);
+    
+}
+
+.home-cont img{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius:50%;
+    display: inline-block;
+    
+    
+}
+
+.home-cont h1{
+    display: inline-block;
+    margin-top: 200px;
+    color: violet;
+    font-size: 50px;
+}
+.home-cont p{
+    margin-left: 25%;
+    font-size: 25px;
+
+}
+
+#resume{
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    background-color: rgb(196, 223, 126);
+    text-decoration: none;
+    
+}
+#resume:hover{
+    background-color: rgb(197, 134, 140);
+}
+
+
+.form-cont{
+    border: 1px solid rgb(21, 217, 129);
+    position: absolute;
+    /* justify-content: space-evenly; */
+    padding: 15px;
+    border-radius: 9%;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+
+#ul{
+    margin-left: 50px;
+   
+    
+}
+
+.about-cont h1{
+    color: blueviolet;
+    padding: 10px;
+   
+}
+
+.about-cont h1:hover{
+    color: rgb(241, 9, 148);
+}
+
+.about-cont p{
+    margin-left: 50px;
+}
