@@ -1,43 +1,78 @@
 *{
-    background-color: rgb(195, 195, 226);
+    background-color: rgb(23, 17, 17);
+    color: white;
+    
 }
 
+/* 
+#frontpage{
+    background-image: url(https://image.similarpng.com/very-thumbnail/2020/11/Netflix-logo-design-illustration-on-transparent-background-PNG.png);
+
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 .navbar{
     padding-left: 85%;
     word-spacing:5px ;
     
+    
+    
 }
 
 #lang{
     background-color: black;
-    color: white;
+    
     padding: 10px;
 }
 
 .navbar button{
     padding: 10px;
     background-color: red;
-    color: white;
+    
 }
 
 .prgs{
-    margin-top: 6%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     text-align: center;
     justify-content: center;
+    font-size: 20px;
+    
+}
+
+.prgs input{
+    width: 300px;
+    padding: 1%;
+    border-radius: 5px;
+    
+}
+
+.prgs button{
+  background-color: red;
+  
+  padding: 1%;
+  border-radius: 10px;
+  width: 200px;
+  word-spacing: 10px;
+  font-size: 20px;
+  
 }
 
 .mov{
     margin-left: 7%;
+    /* margin-right: 2%; */
 }
 
 .box{
     width: 250px;
     height: 300px;
-    border: 1px solid red;
+    border: 1px solid rgb(171, 26, 26);
    margin-left: 1%;
     margin-top: 1%;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     position: relative;
     display: inline-block;
     
@@ -46,9 +81,16 @@
    transform:scale(1.05) ; 
 }
 
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} 
+
 .resn-join{
     text-align: start;
     margin-left: 7%;
+    margin-right: 3%;
 }
 
 .box-cont{
@@ -58,7 +100,7 @@
     align-items: flex-start;
     gap: 1%;
     margin-top: 2%;
-    
+       
 }
 
 .box1{
@@ -71,7 +113,59 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 1%;
+    /* background-color: rgb(5, 5, 71); */
+    background-image: url(https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg);
+    
+}
+
+.box1 > h1 {
+    background-image: url(https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg);
+}
+
+.box1 > p {
+    background-image: url(https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg);
+}
+
+.question{
+    margin-left: 7%;
+    
+
+}
+
+.question p{
+    border: 1px solid blue;
+    width: 700px;
+    padding: 2%;
+    font-size: 25px;
+    background-color: rgb(117, 117, 109);
+}
+
+.footer{
+    margin-left: 7%;
+  
+}
+
+.footer input{
+    width: 500px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.footer button{
+  background-color: red;
+  
+  padding: 1%;
+  border-radius: 10px;
+  width: 200px;
+  word-spacing: 10px;
+  font-size: 20px;
+}
+
+.footerlinks{
+   margin-left: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
 }
