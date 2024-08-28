@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-
+int main()
+{
    int num=12321, temp,reverse=0,rem;
    temp=num;
    while(temp!=0){
