@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-   
+
    int num=12321, temp,reverse=0,rem;
    temp=num;
    while(temp!=0){
@@ -11,7 +11,8 @@ int main(){
     temp=temp/10; 
    }
 
-   if(num==reverse){ 
+   if(num==reverse)
+   { 
     cout<<" pallindrome";
    }
    else
