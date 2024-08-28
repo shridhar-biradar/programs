@@ -9,7 +9,7 @@ int main(){
     reverse=reverse*10 + rem;  
     temp=temp/10; 
    }
-   if(num==reverse){
+   if(num==reverse){ 
     cout<<" pallindrome";
    }
    else
