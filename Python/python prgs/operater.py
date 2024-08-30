@@ -15,3 +15,8 @@ print('a<=b ',a<=b)
 print('a>=b ',a>=b)
 print('a<b ',a<b)
 print('a>b ',a>b)
+# we can apply relational oprator for str type also
+print()
+a='python'
+b='python'
+print('a>b is',a>b)
