@@ -34,4 +34,10 @@ b=20
 print('a=',a , 'b=' , b)
 print('a==b is', a==b)
 print('a!=b is ',a!=b)
+print()
 
+print('conditional operator')
+a=int(input('enter first num:'))
+b=int(input('enter 2nd num:'))
+min=a if a<b else b
+print('minimum value is:' ,min)
