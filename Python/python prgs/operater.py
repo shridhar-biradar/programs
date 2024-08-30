@@ -26,3 +26,11 @@ print('a>b is',a>b)
 print('a<b is' ,a<b)
 print('a>=b is',a>=b)
 print('a<=b is' ,a<=b)
+print()
+
+print('equality operators')
+a=10
+b=20
+print('a=',a , 'b=' , b)
+print('a==b is', a==b)
+print('a!=b is ',a!=b)
