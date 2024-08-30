@@ -41,3 +41,4 @@ a=int(input('enter first num:'))
 b=int(input('enter 2nd num:'))
 min=a if a<b else b
 print('minimum value is:' ,min)
+print()
