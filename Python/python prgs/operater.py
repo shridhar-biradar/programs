@@ -20,3 +20,4 @@ print()
 a='python'
 b='python'
 print('a>b is',a>b)
+print('a<b is' ,a<b)
