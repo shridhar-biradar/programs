@@ -26,7 +26,7 @@ print('a>b is',a>b)
 print('a<b is' ,a<b)
 print('a>=b is',a>=b)
 print('a<=b is' ,a<=b)
-print()
+print('')
 
 print('equality operators')
 a=10
