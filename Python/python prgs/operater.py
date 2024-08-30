@@ -6,7 +6,7 @@ print('a-b=',a-b)
 print('a*b=',a*b)
 print('a/b=',a/b)
 print('a//b=',a//b)
-print()
+print('')
 
 print('relational operator')
 a=10
