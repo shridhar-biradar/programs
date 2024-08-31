@@ -1,6 +1,6 @@
 print('list example')
 a=[10,20,10,'rahul',2.3,False]
-print(a)
+print(a) 
 print(type(a))
 print(len(a))
 print(a[0])
