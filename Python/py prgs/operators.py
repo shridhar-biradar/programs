@@ -7,3 +7,4 @@ print('python' in x)
 
 list=['sunny','bunny','chinny','pinny']
 print('sunny' in list)
+print('bunny' not in list)
