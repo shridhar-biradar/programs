@@ -18,3 +18,4 @@ print(id(list2))
 print(list1 is list2)
 print(list1 is not list2)
 print(list1==list2)
+# we can use identity operator for address comparison 1) is operator 2) is not operator
