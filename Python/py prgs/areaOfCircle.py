@@ -4,5 +4,5 @@ print('Area of Circle is:',pi*r**2)
 print()
 
 num=int(input('Square root value of number:'))
-print(sqrt(num))
+print('square root value is: ',sqrt(num))
 print('pi value is',pi)
