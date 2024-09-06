@@ -1,5 +1,5 @@
 a='this is python class'
-print(a)
+print(a) 
 print(a.title())# This Is Python Class
 # title() will convert each words first character to upper case
 
@@ -20,7 +20,7 @@ print(a.upper()) #THIS IS PYTHON CLASS
 # upper() will convert entire string into upper case
 
 print(a.lower()) # this is python class
-# lower() will convert entire sting into lower case
+# lower() will convert entire sting into lower case 
 
 print('Hello'.isalpha())# True
 print('Hello123'.isalpha())#False
