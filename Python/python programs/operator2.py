@@ -14,7 +14,7 @@ a.remove(20)
 print(a)
 
 #set() is used to remove all object from set
-a.clear()
+a.clear() 
 print(a)
 
 a={10,20,30}
