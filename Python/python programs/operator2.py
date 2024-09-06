@@ -50,7 +50,7 @@ print(a.isdisjoint(b))#False
 print(a.isdisjoint(c))#True
 print()
 
-print('operation on dictionary')
+print('function or operation on dictionary')
 a={1:10,2:20,3:30}
 print(a) # {1: 10, 2: 20, 3: 30}
 print(type(a)) # <class 'dict'>
