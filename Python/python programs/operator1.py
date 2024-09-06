@@ -1,4 +1,4 @@
-print('membership function')
+print('membership function') 
 a=[10,20]
 print(10 in a)
 print(100 not in a)
