@@ -14,7 +14,7 @@ print('identity operator')
 a=[10,20,30]
 b=[10,20,30]
 c=a
-print(a is b)#list will compair address of 2 variable
+print(a is b)#list will compair address of 2 variable 
 print(a is c)
 print(id(a))
 print(id(b))
