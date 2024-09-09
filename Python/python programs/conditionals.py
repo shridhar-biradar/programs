@@ -5,6 +5,7 @@ if n<20:
     print(n,'is lesser than 20')
 if True:
     print('good morning')
+
 # if condition is true then only it executes statements
 if False:
     print('it is false condition')
