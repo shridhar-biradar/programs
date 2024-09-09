@@ -73,7 +73,7 @@ print(a) # {1: 10, 2: 20, 3: 30}
 a.pop(2) 
 print(a) # {1: 10, 3: 30}
 
-# clear() remove all elemnets from dictionary
+# clear() remove all elemnets from dictionary 
 a.clear()
 print(a) # {}
 
