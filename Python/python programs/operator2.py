@@ -4,7 +4,7 @@ a={10,20,30}
 print(a)
 print(type(a))
 print(len(a))
-#add() is used to add object in set
+#add() is used to add object in set 
 a.add('python')
 print(a)
 
