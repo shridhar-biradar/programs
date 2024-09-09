@@ -12,9 +12,9 @@ print()
 print('assignment operator')
 a=10
 a+=5
-print(a) 
+print(a) #15
 a-=5
-print(a)
+print(a) #5
 a*=10
 print(a)
 a/=2
