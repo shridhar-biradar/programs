@@ -4,27 +4,26 @@ print(a)
 print(type(a))
 print(len(a))
 print(a[0])
-
-print('------')
+a.append(40)
+print(a)
 
 print('set example')
-a={10,10,20,2.3,'rahul'}
-print(a)
-print(type(a))
-print(len(a))
- 
+s={10,10,20,2.3,'rahul'}
+print(s)
+print(type(s))
+print(len(s))
 print('------')
 
 print('tuple example')
-a=(10,10,20,2.3,'rahul',True)
-print(a)
-print(type(a))
-print(len(a))
+t=(10,10,20,2.3,'rahul',True)
+print(t)
+print(type(t))
+print(len(t))
 print('----')
 
 print('dictionar example')
-a={ 1:10,2:20,3:30}
-print(a)
-print(type(a))
-print(len(a))
+d={ 1:10,2:20,3:30}
+print(d)
+print(type(d))
+print(len(d))
 print('-----')
