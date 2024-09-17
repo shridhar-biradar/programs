@@ -15,7 +15,7 @@ class Car:
     def driving(self):
         print('driving a car')
 c=Car() # object creation
-c.driving() # internal working -> Car.write(c)
+c.driving() # internal working -> Car.write(c) 
 print()
 
 # employee class created
