@@ -10,7 +10,7 @@ print()
 
 # car class is created
 class Car:
-    # def driving() # driving() takes 0 positional arguments but 1 was given
+    # def driving() -> driving() takes 0 positional arguments but 1 was given
     # if we do not pass any parameter it gives above error 
     def driving(self):
         print('driving a car')
@@ -20,7 +20,7 @@ print()
 
 # employee class created
 class Employee:
-    def work(self):
+    def work(self): 
         print(self)
         print('employee is working')
 e1=Employee()
