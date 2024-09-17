@@ -3,7 +3,7 @@ class Student:
     age=22
     name='tom'
 s1=Student() # object creation
-print('id is ',s1.id)
+print('id is ',s1.id) # id is 12
 print('age is ',s1.age)
 print('name is ',s1.name)
 print()
