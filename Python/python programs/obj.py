@@ -21,7 +21,7 @@ print(c1.brand,c1.cost)
 print(c2.brand,c2.cost)
 print()
 
-#if we update the class values it will affecet all the object of
+#if we update the class values it will affecet all the object of 
 # that class untill it has connection with class
 Car.brand='sujuki' 
 print(Car.brand,Car.cost)
