@@ -4,8 +4,8 @@ class Student:
     name='tom'
 s1=Student() # object creation
 print('id is ',s1.id) # id is 12
-print('age is ',s1.age)
-print('name is ',s1.name)
+print('age is ',s1.age) # age is 22
+print('name is ',s1.name) # name is tom
 print()
 
 class Car:
