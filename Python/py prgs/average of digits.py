@@ -9,3 +9,4 @@ def avg(num):
     return sum/count
 num=int(input('enter the number: '))
 print(avg(num))
+
