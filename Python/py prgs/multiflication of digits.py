@@ -6,4 +6,4 @@ def mul(num):
         num=num//10
     return mul_no
 num=int(input('enter the number : '))
-print(mul(num))
+print('multification of digits in given number is: ',mul(num))
