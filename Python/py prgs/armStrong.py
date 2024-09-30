@@ -1,4 +1,5 @@
 # it is for only 3 digit number
+'''
 def isArmStrong(num):
     sum=0
     temp=num
@@ -12,3 +13,18 @@ if isArmStrong(no):
     print(no,' is a armStrong number')
 else:
    print(no,' is a not armStrong number')
+'''
+# To find armStrong number of all type input
+
+def isArmStrong(num):
+    sum=0
+    l=len(str(num))
+    for i in range(l):
+        sum=sum + int(num[i])**l
+    sum=str(sum)
+    return sum==num
+no=input('enter the number: ')
+if isArmStrong(no):
+    print(no, ' is armStrong Number')
+else:
+    print(no, 'is not armStrong number ')
