@@ -1,6 +1,6 @@
 def isPrime(num):
     for i in range(2,num//2+1):
-        if num % i== 0:
+        if num% i==0:
             return False
         return True
 
@@ -15,8 +15,8 @@ def getReverse(num):
 def emirp(num):
     return isPrime(num) and isPrime(getReverse(num))
 
-num=int(input('enter the number: '))
+num=int(input('enter number: '))
 if emirp(num):
-    print(num ,' is emirp number')
+    print(num,'is emirp number ')
 else:
-    print(num ,'is not emirp number') 
+    print(num ,'is not emirp number')
