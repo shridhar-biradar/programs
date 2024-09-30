@@ -1,3 +1,4 @@
+# it is for only 3 digit number
 def isArmStrong(num):
     sum=0
     temp=num
