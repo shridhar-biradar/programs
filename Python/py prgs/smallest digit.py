@@ -9,4 +9,4 @@ def smallNum(num):
 
 num=int(input('enter number to find smallest digit: '))
 small_digit=smallNum(num)
-print('smallest digit is: ', small_digit)
+print('smallest digit of {} is {} '.format(num,small_digit) )
