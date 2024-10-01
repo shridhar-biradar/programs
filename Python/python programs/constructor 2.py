@@ -46,7 +46,7 @@ for i in l:
     print(i)
 print('-------------')  '''
 
-# program to accept user input and store it in list
+# program to accept user input and store it in list 
 class Student:
     def __init__(self,name):
         self.name = name
