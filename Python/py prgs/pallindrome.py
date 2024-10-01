@@ -12,3 +12,5 @@ if isPallindrome(num)==True:
     print(num,' is a pallindrome number')
 else:
     print(num,' is not a palindrome number')
+
+
