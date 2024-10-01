@@ -42,7 +42,7 @@ c1=Car('suzuki',50000)
 c2=Car('hundai',100000)
 c3=Car('swift',8273767)
 l = [c1,c2,c3]
-for i in l:
+for i in l: 
     print(i)
 print('-------------')  '''
 
