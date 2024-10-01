@@ -14,15 +14,15 @@ class Student:
         self.age=age
         self.name=name
     
-    def display(self):
+     def display(self):
         print(self.age,self.name)
 s1=Student(21,'john')
 s2=Student(32,'alex')
 
-s1.display(22,'alex')
+s1.display()
 s2.display()
-
 '''
+
 
 class Emp:
     def  __init__(self,id,name,age,sal):
