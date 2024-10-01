@@ -9,4 +9,4 @@ def biggestNum(num):
 
 num=int(input('enter number to find out biggest digit: '))
 big_digit=biggestNum(num)
-print(bigg)
+print('biggest digit is: ',big_digit)
