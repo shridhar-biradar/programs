@@ -12,7 +12,7 @@ class Vehicle:
         print('in vehicle')
 class Car(Vehicle):
     def __init__(self):
-        super().__init__() # invoking parent class constructor
+        super().__init__() # invoking parent class constructor 
         print('in car')
 c=Car()
 print()
