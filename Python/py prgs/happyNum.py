@@ -9,6 +9,6 @@ def isHappy(num):
     return num==1 or num==7
 num=int(input('enter the number: '))
 if isHappy(num):
-    print(num ,' is happy number')
+    print(num ,' is happy number') 
 else:
     print(num, 'is not happay number')
