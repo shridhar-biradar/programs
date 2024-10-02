@@ -9,7 +9,7 @@ a='shridhar'
 b='shri'
 print(id(a))
 print(id(b))
-print('a=shridhar b=shri  a is not b',a is not b)
+print('a=shridhar b=shri  a is not b',a is not b) 
 
 list1=['one','two','three']
 list2=['one','two','three']
