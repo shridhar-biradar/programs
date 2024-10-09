@@ -3,7 +3,7 @@ def outer(func):
     def inner():
         print('start')
         func()
-        print('end')
+        print('end') 
     return inner
 @outer
 def display():
