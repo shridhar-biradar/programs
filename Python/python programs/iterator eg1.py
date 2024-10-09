@@ -14,7 +14,7 @@ print(next(i)) # 'john'
 print(next(i)) # 'M'
 print(next(i)) # 20
 print(next(i)) # 3.5
-print('-------------')
+print('-------------') 
 
 bike={'honda','royal','RX'}
 i=iter(bike)
