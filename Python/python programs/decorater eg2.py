@@ -14,7 +14,7 @@ def tom():
 # function to be decorated
 @outer
 def jerry():
-    print('my name is jerry') 
+    print('my name is Jerry') 
 
 tom()
 '''
