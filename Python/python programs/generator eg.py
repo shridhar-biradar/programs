@@ -26,7 +26,7 @@ def even():
     i+=2
     yield i
 obj=even()
-i=iter(obj)
+i=iter(obj) 
 print(next(i))
 print(next(i))
 print(next(i))
