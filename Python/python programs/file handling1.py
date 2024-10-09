@@ -10,7 +10,7 @@ print('------------')
 print()
 
 # file writing eg2
-f=open('student.txt','w')
+f=open('student.txt','w') 
 #f.write('studying python ')
 f.write('studying python programing')
 f.close()
