@@ -7,7 +7,7 @@ def outer(func):
     return inner
 @outer
 def display():
-    print('hello world')
+    print('hello world') 
 
 display()
 '''
