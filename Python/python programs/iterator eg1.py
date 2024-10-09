@@ -35,7 +35,7 @@ for i in range(len(a)):
     print(next(itr))
 print('--------------')
 
-# 'int' object is not iterable
+# 'int' object is not iterable 
 '''
 a=76767
 itr1=iter(a)
