@@ -27,7 +27,7 @@ bike={'honda','royal','RX'}
 i=iter(bike)
 for x in range(len(bike)):
     print(next(i))
-print('-------------')
+print('-------------') 
 
 a='Hai'
 itr=iter(a)
