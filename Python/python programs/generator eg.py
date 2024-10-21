@@ -1,5 +1,5 @@
 # example for generator
-def gen():
+def gen(): 
     i=1
     yield i
 
