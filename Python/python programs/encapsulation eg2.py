@@ -1,6 +1,6 @@
 
 # Encapsulation example 1
-class Employee:
+class Employee: 
     __name=None
     __salary=None
 
