@@ -1,5 +1,5 @@
 
-import json
+import json 
 f=open('demo3.txt','w')
 original_data={1:10,2:20,3:30}
 json_data=json.dumps(original_data)
