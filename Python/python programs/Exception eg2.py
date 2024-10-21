@@ -45,7 +45,7 @@ if amount<= balance:
     print('Amount is withdrawn successful')
 else:
     try:
-        raise InsufficientBalanceException
+        raise InsufficientBalanceException 
     except:
         print('insufficient balance')
 
