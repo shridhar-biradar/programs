@@ -8,7 +8,7 @@ def gen():
 
     i+=1
     yield i
-    
+
 obj=gen() # calling generator function, & it return address
 i=iter(obj) # traversing obj
 print(next(i)) # 1
@@ -27,8 +27,12 @@ def even():
     i+=2
     yield i
 
+    i+=2
+    yield i
+
 obj=even()
 i=iter(obj) 
+print(next(i))
 print(next(i))
 print(next(i))
 print(next(i))
