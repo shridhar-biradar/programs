@@ -19,7 +19,7 @@ class Employee:
 
 e=Employee()
 name=input('enter your name: ')
-sal=int(input('enter ur salary: '))
+sal=int(input('enter your salary: '))
 e.setName(name)
 e.setSalary(sal)
 print(e.getName())
