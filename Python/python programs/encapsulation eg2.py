@@ -56,7 +56,7 @@ class Gmail:
             self.__password=password
         else:
             print('enter strong password')
-
+ 
     def getPassword(self):
         return self.__password
 g=Gmail()
