@@ -18,7 +18,7 @@ class Employee:
         return self.__salary
 
 e=Employee()
-name=input('enter ur name: ')
+name=input('enter your name: ')
 sal=int(input('enter ur salary: '))
 e.setName(name)
 e.setSalary(sal)
