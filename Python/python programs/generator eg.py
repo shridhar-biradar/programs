@@ -36,6 +36,7 @@ print('-------------------')
 def square():
     for i in range(1,6):
         yield i*i
+
 obj=square()
 i=iter(obj)
 for x in range(1,6):
