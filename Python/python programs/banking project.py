@@ -17,7 +17,7 @@ class Bank:
 
 obj=Bank(5000)
 
-while True:
+while True: 
     print('1:deposite amount')
     print('2:withdra amount')
     print('3:check balance')
