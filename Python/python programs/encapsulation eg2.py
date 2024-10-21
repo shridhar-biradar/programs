@@ -1,4 +1,4 @@
-'''
+
 # Encapsulation example 1
 class Employee:
     __name=None
@@ -44,7 +44,7 @@ std=Student()
 age=int(input('enter a age: '))
 std.setAge(age)
 print(std.getAge())
-'''
+
 
 print('***************')
 
