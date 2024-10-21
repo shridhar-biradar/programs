@@ -6,7 +6,7 @@ except ZeroDivisionError as z:
 print('end')
 
 print('*************')
-
+ 
 a=[10,20,30]
 try:
     print(a[99])
