@@ -1,5 +1,5 @@
 # json.dumps() for converting json data to original data
-'''
+
 import json
 
 f=open('demo1.txt','w')
@@ -10,7 +10,7 @@ json_data=json.dumps(original_data)
 
 f.write(json_data)
 f.close()
-'''
+
 
 import json
 f=open('demo1.txt','r')
