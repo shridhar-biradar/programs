@@ -55,7 +55,7 @@ class Gmail:
         if len(password)>=8:
             self.__password=password
         else:
-            print('enter strong password')
+            print('enter strong password ,it is invalid password')
  
     def getPassword(self):
         return self.__password
