@@ -38,14 +38,14 @@ print(next(i))
 print(next(i))
 print('-------------------')
 
-# find square root of 1st 5 number
+# find square root of 1st 6 number
 def square():
-    for i in range(1,6):
+    for i in range(1,7):
         yield i*i
 
 obj=square()
 i=iter(obj)
-for x in range(1,6):
+for x in range(1,7):
     print(next(i))
 
     
