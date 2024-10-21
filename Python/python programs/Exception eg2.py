@@ -58,7 +58,7 @@ class InsufficientBalance(Exception):
 def withdraw(amount):
     balance=5000
     if amount<=balance:
-        print('Available balance before withdrawn: ',balance)
+        print('Available balance before withdrawn: ',balance) 
         print('Withdrawing Rs. ',amount)
         balance=balance-amount
         print('amount withdrawn successfully')
