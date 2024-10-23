@@ -7,7 +7,7 @@ display()
 display('John')
 display('Alex',60)
 display('Jack',87,'Java')
-display(subject='java')
+display(subject='SQL')
 
 print('*****************')
 
